@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart</title>
+    <style>
+        h1{
+            font-family: "Brush Script MT", cursive;
+            font-style: oblique;
+            margin-right: -310px;
+            margin-top: -300px;
+            font-size: 100px;
+            text-align: center;
+            color: rgb(111, 14, 14);
+        }
+        body{
+            background-color: gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: black;
+        }
+        .heart1{
+            font-size: 15rem;
+            animation: heart1 .5s infinite alternate linear;
+        }
+        @keyframes heart1{
+            from{
+                transform: scale(.7);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+        h1{
+            font-family: "Brush Script MT", cursive;
+            font-style: oblique;
+            margin-right: -310px;
+            margin-top: -300px;
+            font-size: 100px;
+            text-align: center;
+            color:  rgb(111, 14, 14);
+        }
+        body{
+            background-color: gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+        .heart{
+            font-size: 15rem;
+            animation: heart .5s infinite alternate linear;
+        }
+        @keyframes heart{
+            from{
+                transform: scale(.7);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Beşiktaş</h1>
+    <div class="heart">♥</div>
+    <div style="color: black;" class="heart1">♥</div>
+</body>
+</html>
